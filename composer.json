@@ -1,0 +1,26 @@
+{
+    "name": "blocksframework/seo",
+    "description": "A module for certain reasonable seo (sitemap, checking for broken links etc) of the Blocks PHP framework",
+    "license": "MIT",
+    "keywords": [
+        "blocks",
+        "PHP framework",
+        "seo"
+    ],
+    "require": {
+        "php": ">=8.2",
+        "beberlei/assert": "^3.3",
+        "phpunit/phpunit": "^9.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Blocks\\Seo\\": "src/class"
+        }
+    },
+    "authors": [
+        {
+            "name": "Stephen Stephenson",
+            "email": "stephenson.inbox@gmail.com"
+        }
+    ]
+}
